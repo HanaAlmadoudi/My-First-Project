@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>قائمة المهام</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1> To-Do-Task </h1>
+        <input type="text" id="taskInput" placeholder="Write Your Task Here...">
+        <button id="addTaskBtn">
+            <bold>Add</bold>
+        </button>
+
+        <select id="filter">
+            <option value="all"> All Tasks </option>
+            <option value="completed"> completed </option>
+        </select>
+
+        <ul id="taskList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
